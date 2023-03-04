@@ -37,18 +37,6 @@ const supermarkets = [
 	},
 ];
 
-// [
-// 	{
-// 		vendor: 'd1',
-// 		productos: [
-// 			{
-// 				categorie: 'bebida',
-// 				products: [{}]
-// 			}
-// 		]
-// 	}
-// ]
-
 const getProducts = async (url, categorie, selectors) => {
 	const { pagination, conainerProducts, cardProducts, nameProduct, priceProduct, imgProduct } =
 		selectors;
